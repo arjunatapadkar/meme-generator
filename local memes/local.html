@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mememaker</title>
+
+    <link rel="stylesheet" href="local.css">
+    
+</head>
+<body>
+     <h1 class="head">Create meme using image from your device</h1>
+    <div class="meme-generator">
+        <div class="part1">
+        <label>Select an Image</label>
+        <input type="file" id="imageFileInput">
+      
+        <label>Top Text</label>
+        <input type="text" id="topTextInput" class="input" placeholder="top text">
+      
+        <label>Bottom Text</label>
+        <input type="text" id="bottomTextInput" class="input" placeholder="bottom text">
+       </div>
+
+        <div class="part2">
+            <canvas id="meme"></canvas>
+
+            <button id="download-img">
+                Download
+              </button>
+            </div>
+      </div>
+
+      
+      
+
+    <script src="./main.js"></script>
+</body>
+</html>
