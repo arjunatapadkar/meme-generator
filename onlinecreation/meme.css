@@ -25,6 +25,8 @@ body {
     font-weight: 600;
     padding: 1rem 5rem;
   }
+
+ 
   
    #export {
     background: #3b82f6;
@@ -71,7 +73,7 @@ body {
   }
   
   .input {
-    color: white;
+    color: black;
     border: 0;
     outline: 0;
     background: none;
